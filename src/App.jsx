@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import "./App.css";
 
 function App() {
-  const [MusicaAtual, setMusicaAtual] = useState("Aguaradndo seleção...");
+  const [MusicaAtual, setMusicaAtual] = useState("Aguardando Seleção...");
   const [minhasMusicas, setMinhasMusicas] = useState([]);
 
   // novo  estado para saber se já há um áudio tocando
